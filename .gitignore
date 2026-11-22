@@ -1,7 +1,0 @@
-.idea/
-.gradle/
-build
-**/*.class
-*.bin
-*.lock
-/.idea/workspace.xml

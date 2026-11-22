@@ -1,7 +1,7 @@
 # Smaller OS footprint using JRE
-FROM eclipse-temurin:21-jre
+FROM openjdk:21
 WORKDIR /app
 
-COPY build/libs/songs-service-1.0-SNAPSHOT.jar app.jar
+ADD build/libs/*.jar /app/app.jar
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "app.jar"]

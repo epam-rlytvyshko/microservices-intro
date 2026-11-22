@@ -22,8 +22,6 @@ public class SongDto {
 
     String length;
 
-    String genre;
-
     @NotNull
     Integer resourceId;
 
