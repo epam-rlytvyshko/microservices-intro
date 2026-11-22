@@ -1,6 +1,5 @@
 package com.ms.intro.domain;
 
-import com.ms.intro.dto.SongDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -38,4 +37,7 @@ public class SongData {
 
     @Column(nullable = true)
     String year;
+
+    @Column(nullable = true)
+    String genre;
 }
